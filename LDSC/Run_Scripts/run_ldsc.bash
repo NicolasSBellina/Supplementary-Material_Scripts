@@ -5,7 +5,6 @@ cd /mnt/c/Users/Nicolas/Desktop/sum_hm3_ldsc/
 # fixed directories
 LDSC="/mnt/c/users/Nicolas/desktop/ldsc/ldsc.py"
 REF="/mnt/c/users/Nicolas/desktop/ldsc_ref/LDscore/LDscore.@"
-WLD="/mnt/c/users/Nicolas/desktop/ldsc_ref/1000G_Phase3_weights_hm3_no_MHC/weights.hm3_noMHC.@"
 OUTDIR="/mnt/c/users/Nicolas/desktop/sum_hm3_ldsc/results/qualitativo"
 
 #OUTDIR="/mnt/c/users/Nicolas/desktop/resultadosteste"
@@ -95,7 +94,7 @@ do
     python "$LDSC" \
     --rg "$rg_list" \
     --ref-ld-chr "$REF" \
-    --w-ld-chr "$WLD" \
+    --w-ld-chr "$REF" \
     --samp-prev "$samp_list" \
     --pop-prev "$pop_list" \
     --out "$OUTDIR/${traits[$i]}_quali"
