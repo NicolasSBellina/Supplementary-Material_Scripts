@@ -58,7 +58,6 @@ aux <- sum$A2
 sum$A2 <- sum$A1
 sum$A1 <- aux
 
-sum$BETA <- -sum$BETA
 # If alleles are written in lowercase letters, convert them to uppercase
 sum$A1 <- toupper(sum$A1)
 sum$A2 <- toupper(sum$A2)
