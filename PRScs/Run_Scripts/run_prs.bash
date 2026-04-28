@@ -46,6 +46,7 @@ do
     --bim_prefix "$BIM" \
     --sst_file "${files[$i]}" \
     --n_gwas "${n[$i]}" \
+    --phi=1e-2 \
     --out_dir "$OUTDIR/${traits[$i]}/${traits[$i]}"
 
 done
