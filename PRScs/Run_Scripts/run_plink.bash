@@ -20,12 +20,12 @@ Stroke
 )
 
 files=(
-IM_pst_eff_a1_b0.5_phiauto_chr_all.txt
-CAD_pst_eff_a1_b0.5_phiauto_chr_all.txt
-FA_pst_eff_a1_b0.5_phiauto_chr_all.txt
-Hip_pst_eff_a1_b0.5_phiauto_chr_all.txt
-IC_pst_eff_a1_b0.5_phiauto_chr_all.txt
-Stroke_pst_eff_a1_b0.5_phiauto_chr_all.txt
+IM_pst_eff_a1_b0.5_phi1e-02_chr_all.txt
+CAD_pst_eff_a1_b0.5_phi1e-02_chr_all.txt
+FA_pst_eff_a1_b0.5_phi1e-02_chr_all.txt
+Hip_pst_eff_a1_b0.5_phi1e-02_chr_all.txt
+IC_pst_eff_a1_b0.5_phi1e-02_chr_all.txt
+Stroke_pst_eff_a1_b0.5_phi1e-02_chr_all.txt
 )
 
 
