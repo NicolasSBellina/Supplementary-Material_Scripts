@@ -1,6 +1,3 @@
-#./plink --bfile nome --score nome_do_novo_arquivo.txt 2 4 6 sum --out nome_do_arquivo_PRS
-
-#./plink --bfile /mnt/c/users/nicolas/desktop/prs/amostra_alvo/crianças/BANCO_FILTER_ADHD_QC --score /mnt/c/users/Nicolas/desktop/prs/results/crianças/scores/IM/IM_pst_eff_a1_b0.5_phiauto_chr_all.txt 2 4 6 --out /mnt/c/users/Nicolas/desktop/prs/results/crianças/profiles/IM/IM
 
 #DIR="/mnt/c/users/Nicolas/desktop/prs/results/crianças/scores"
 DIR="/mnt/c/users/Nicolas/desktop/prs/results/adultos/scores"
