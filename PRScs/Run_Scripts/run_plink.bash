@@ -28,7 +28,7 @@ Stroke_pst_eff_a1_b0.5_phi1e-02_chr_all.txt
 
 for i in "${!traits[@]}"
 do
-    mkdir -p $OUTDIR/${traits[$i]}
+    mkdir -p "$OUTDIR/${traits[$i]}"
 
     echo "****************************************** ${traits[$i]} **************************************************************"
 
