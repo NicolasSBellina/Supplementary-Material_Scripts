@@ -37,7 +37,7 @@ n=(
 
 for i in "${!traits[@]}"
 do
-    mkdir -p $OUTDIR/${traits[$i]}
+    mkdir -p "$OUTDIR/${traits[$i]}"
 
     echo "******************************************Calculando PRS para ${traits[$i]} **************************************************************"
 
